@@ -1,0 +1,52 @@
+// //Ex. 1
+// for (let i=1; i <= 10; i++) {
+//   if(i % 2 === 0) {
+//     console.log(i)
+//   }
+// }
+
+
+// //Ex. 2
+// function sumArray(array) {
+//   let sum = 0;
+//   for (let i = 0; i < array.length; i++) {
+//     sum += array[i];
+//   }
+//   return sum;
+// }
+
+
+// const numbers = [6, 25, 7, 10, 45, 20, 64];
+  
+// console.log(sumArray(numbers));
+
+
+// //Ex. 3
+// let reverseNumbers = (numbers) => {
+//   let reverseArr = [];
+//   for (let i = numbers.length - 1; i >= 0; i -= 1) {
+//     reverseArr.push(numbers[i]);
+//   }
+//   return reverseArr;
+// }
+// let numbers = [1, -5, 20, -34, 16, 29, 36, -4];
+// console.log(reverseNumbers(numbers));
+
+//Ex. 4
+
+// let vowelNumber = (string) => {
+//   const vowels = ["a", "e", "i", "o", "u"]
+//   const chars = string.toLowerCase().split("");
+//   let vowelFromString = [];
+//   for ( let i = 0; i <= chars.length; i++) {
+//     if(vowels.includes(chars[i])) {
+//       vowelFromString.push(chars[i]);
+//     }
+//   }
+//   return vowelFromString;
+  
+// }
+// const vowelFromString = vowelNumber("string de test");
+// console.log("The vowels are : " + vowelFromString + " and the length is : " + vowelFromString.length);
+
+
